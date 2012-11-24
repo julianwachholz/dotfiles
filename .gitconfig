@@ -66,3 +66,5 @@
 
 [format]
 	pretty = format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset
+[push]
+	default = simple
