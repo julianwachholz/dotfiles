@@ -1,0 +1,36 @@
+! ~/.Xresources
+!
+! jwa
+!
+
+!!! XFT
+Xft.dpi:				96
+Xft.antialias:				true
+Xft.hinting:				true
+Xft.hintstyle:				hintfull
+
+
+!!! URXVT
+URxvt.termName:				rxvt
+URxvt.scrollBar:			false
+URxvt.buffered:				true
+URxvt*iso14755:				false
+URxvt*iso14755_52:			false
+
+!URxvt*font:				xft:terminus:pixelsize=12:antialias=false
+!URxvt*font:				xft:Droid Sans Mono:size=9
+URxvt*font:				xft:Bitstream Vera Sans Mono-8
+URxvt.depth:				32
+URxvt.background:			rgba:1a00/1a00/1a00/ef00
+
+URxvt.perl-ext-common:			default,clipboard,url-select
+URxvt.url-select.launcher:		google-chrome
+URxvt.url-select.underline:		true
+URxvt.keysym.M-u:			perl:url-select:select_next
+URxvt.keysym.M-c:			perl:clipboard:copy
+URxvt.keysym.M-v:			perl:clipboard:paste
+
+
+
+!!! COLOUR THEME
+#include "/home/jwa/.config/Xcolours/night"
