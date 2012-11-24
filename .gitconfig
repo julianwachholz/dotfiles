@@ -66,11 +66,3 @@
 
 [format]
 	pretty = format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset
-
-[url "ssh://jwa_@review.typo3.org:29418"]
-	pushInsteadOf = git://git.typo3.org
-
-[github]
-	user = julianwachholz
-	token = b56326bfed711c0e4bc07dd278d55ef2
-
