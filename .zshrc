@@ -31,6 +31,9 @@ ZSH_THEME="jwa"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(ssh-agent git django python pip virtualenvwrapper)
 
+# Setup SSH keys
+zstyle :omz:plugins:ssh-agent identities id_rsa id_rsa_old
+
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
