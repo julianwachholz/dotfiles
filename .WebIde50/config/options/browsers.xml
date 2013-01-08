@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="WebBrowsersConfiguration">
+    <browser family="SAFARI" path="" active="false" />
+    <browser family="FIREFOX" path="firefox" active="false" />
+    <browser family="OPERA" path="opera" active="false" />
+    <browser family="EXPLORER" path="" active="false" />
+    <browser family="CHROME" path="google-chrome" active="true" />
+  </component>
+</application>
+

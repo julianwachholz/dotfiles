@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="javaScript libraries">
+      <project id="eventisfaction.local" values="modernizr,jquery,jqueryUi" />
+    </group>
+    <group name="Command line tool">
+      <project id="projectx.local" values="console in toolwindow" />
+    </group>
+    <group name="php-interpreter-debug-ext">
+      <project id="eventisfaction.local" values="xdebug" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="eventisfaction.local" values="MySQL/5.5.24-log" />
+    </group>
+    <group name="javaScript Frameworks">
+      <project id="eventisfaction.local" values="Modernizr 2.5.3,jQuery 1.7.1,jQuery UI 1.8.17" />
+    </group>
+    <group name="php-interpreters">
+      <project id="presentations" values="1" />
+      <project id="projectx" values="0" />
+      <project id="eventisfaction-placeholder" values="1" />
+      <project id="eventisfaction.local" values="1" />
+      <project id="nodejs" values="1" />
+      <project id="projectx.local" values="0" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="presentations" values="not installed" />
+      <project id="projectx" values="not installed" />
+      <project id="eventisfaction-placeholder" values="not installed" />
+      <project id="eventisfaction.local" values="5.3.10" />
+      <project id="nodejs" values="not installed" />
+      <project id="projectx.local" values="not installed" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="eventisfaction.local" values="PHPUnitRunConfigurationType" />
+    </group>
+    <group name="module type">
+      <project id="presentations" values="WEB_MODULE" />
+      <project id="eventisfaction-placeholder" values="WEB_MODULE" />
+      <project id="eventisfaction.local" values="WEB_MODULE" />
+      <project id="nodejs" values="WEB_MODULE" />
+    </group>
+    <group name="php-servers">
+      <project id="presentations" values="0" />
+      <project id="projectx" values="0" />
+      <project id="eventisfaction-placeholder" values="0" />
+      <project id="eventisfaction.local" values="0" />
+      <project id="nodejs" values="0" />
+      <project id="projectx.local" values="0" />
+    </group>
+    <group name="php-include-path">
+      <project id="presentations" values="0" />
+      <project id="projectx" values="0" />
+      <project id="eventisfaction-placeholder" values="0" />
+      <project id="eventisfaction.local" values="1" />
+      <project id="nodejs" values="0" />
+      <project id="projectx.local" values="0" />
+    </group>
+    <group name="file-type">
+      <project id="projectx" values="UNKNOWN" />
+      <project id="eventisfaction.local" values="htaccess,UNKNOWN,YAML,DTD,PLAIN_TEXT,DATASOURCE_STORAGE,CSS,SQL,JavaScript,PHP,HTML,ReST,ARCHIVE,XML,Images,Native" />
+      <project id="projectx.local" values="UNKNOWN" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="eventisfaction.local" values="PHPUnitRunConfigurationType,com.intellij.persistence.run.ConsoleRunConfigurationType" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="presentations" values="0" />
+      <project id="projectx" values="0" />
+      <project id="eventisfaction-placeholder" values="0" />
+      <project id="eventisfaction.local" values="0" />
+      <project id="nodejs" values="0" />
+      <project id="projectx.local" values="0" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="presentations" values="DEFAULT" />
+      <project id="projectx" values="DEFAULT" />
+      <project id="eventisfaction-placeholder" values="DEFAULT" />
+      <project id="eventisfaction.local" values="DEFAULT" />
+      <project id="nodejs" values="DEFAULT" />
+      <project id="projectx.local" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="eventisfaction-placeholder" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="eventisfaction.local" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="eventisfaction.local" values="com.mysql.jdbc.Driver" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="NewDirectoryProjectAction.empty" count="1" />
+      <entry feature="execute.PHPUnitRunConfigurationType.Run" count="9" />
+    </counts>
+  </component>
+</application>
+

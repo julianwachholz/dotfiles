@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="#JSHint.1920.0.1920.1080" x="2603" y="362" />
+    <location key="com.intellij.javaee.module.view.dataSource.DataSourcePropertiesDialog.1920.0.1920.1080" x="2620" y="169" />
+    <location key="OptionsEditor" x="343" y="189" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.27.1920.1173" x="543" y="270" />
+    <location key="#com.intellij.ide.util.MemberChooser.1920.0.1920.1080" x="2688" y="272" />
+    <location key="ActivateTaskDialog.0.27.1920.1173" x="737" y="538" />
+    <location key="IdeErrosDialog.1920.0.1920.1080" x="2521" y="345" />
+    <location key="#Schemas_and_DTDs.1920.0.1920.1080" x="2502" y="297" />
+    <location key="#com.intellij.tools.ToolEditorDialog.0.27.1920.1173" x="1002" y="480" />
+    <location key="#Schemas_and_DTDs.0.27.1920.1173" x="776" y="370" />
+    <location key="OptionsEditor.0.27.1920.1173" x="361" y="222" />
+    <location key="#Images.1920.0.1920.1080" x="2653" y="263" />
+    <location key="#Servers.0.27.1920.1173" x="774" y="489" />
+    <location key="#com.intellij.openapi.editor.actions.MultiplePasteAction.Chooser.1920.0.1920.1080" x="2713" y="170" />
+    <location key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.1920.0.1920.1080" x="2016" y="100" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.1920.0.1920.1080" x="2636" y="250" />
+    <location key="#User.php.1920.0.1920.1080" x="2653" y="294" />
+    <location key="#PHP.1920.0.1920.1080" x="2442" y="196" />
+    <location key="#Inspections.1920.0.1920.1080" x="2513" y="222" />
+    <location key="FileChooserDialogImpl.1920.0.1920.1080" x="2797" y="308" />
+    <location key="FileChooserDialogImpl" x="742" y="368" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1920.0.1920.1080" x="2215" y="229" />
+    <location key="#Interpreters.1920.0.1920.1080" x="2267" y="176" />
+    <location key="FileChooserDialogImpl.0.27.1920.1173" x="742" y="354" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.1920.0.1920.1080" x="2655" y="344" />
+    <location key="ProcessPopupWindow" x="2686" y="721" />
+    <location key="findTextDialog.1920.0.1920.1080" x="2679" y="316" />
+    <location key="replaceTextDialog.1920.0.1920.1080" x="2676" y="315" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.27.1920.1173" x="767" y="345" />
+    <location key="#PHPUnit.1920.0.1920.1080" x="2510" y="431" />
+    <location key="OptionsEditor.1920.0.1920.1080" x="2201" y="149" />
+    <size key="#JSHint.1920.0.1920.1080" width="551" height="354" />
+    <size key="GridCell.Tab.0.center.1920.0.1920.1080" width="1872" height="369" />
+    <size key="com.intellij.javaee.module.view.dataSource.DataSourcePropertiesDialog.1920.0.1920.1080" width="518" height="740" />
+    <size key="OptionsEditor" width="1232" height="848" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.27.1920.1173" width="832" height="686" />
+    <size key="#com.intellij.ide.util.MemberChooser.1920.0.1920.1080" width="382" height="535" />
+    <size key="ActivateTaskDialog.0.27.1920.1173" width="443" height="150" />
+    <size key="IdeErrosDialog.1920.0.1920.1080" width="715" height="389" />
+    <size key="#Schemas_and_DTDs.1920.0.1920.1080" width="551" height="485" />
+    <size key="#com.intellij.tools.ToolEditorDialog.0.27.1920.1173" width="485" height="361" />
+    <size key="#Schemas_and_DTDs.0.27.1920.1173" width="867" height="568" />
+    <size key="OptionsEditor.0.27.1920.1173" width="1381" height="913" />
+    <size key="#Images.1920.0.1920.1080" width="452" height="553" />
+    <size key="#Servers.0.27.1920.1173" width="366" height="243" />
+    <size key="#com.intellij.openapi.editor.actions.MultiplePasteAction.Chooser.1920.0.1920.1080" width="332" height="738" />
+    <size key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.1920.0.1920.1080" width="1728" height="884" />
+    <size key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.1920.0.1920.1080" width="484" height="574" />
+    <size key="#User.php.1920.0.1920.1080" width="452" height="493" />
+    <size key="GridCell.Tab.0.bottom.1920.0.1920.1080" width="1872" height="369" />
+    <size key="#PHP.1920.0.1920.1080" width="484" height="649" />
+    <size key="#Inspections.1920.0.1920.1080" width="732" height="635" />
+    <size key="GridCell.Tab.0.left.1920.0.1920.1080" width="1872" height="369" />
+    <size key="FileChooserDialogImpl" width="432" height="486" />
+    <size key="javadoc.popup.0.27.1920.1173" width="602" height="420" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.1920.0.1920.1080" width="941" height="588" />
+    <size key="FileChooserDialogImpl.1920.0.1920.1080" width="432" height="510" />
+    <size key="#Interpreters.1920.0.1920.1080" width="832" height="685" />
+    <size key="FileChooserDialogImpl.0.27.1920.1173" width="432" height="512" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.1920.0.1920.1080" width="520" height="387" />
+    <size key="ProcessPopupWindow" width="1154" height="343" />
+    <size key="findTextDialog.1920.0.1920.1080" width="400" height="447" />
+    <size key="javadoc.popup.1920.0.1920.1080" width="480" height="411" />
+    <size key="GridCell.Tab.0.right.1920.0.1920.1080" width="1872" height="369" />
+    <size key="replaceTextDialog.1920.0.1920.1080" width="406" height="449" />
+    <size key="#com.intellij.ide.util.MemberChooser.0.27.1920.1173" width="384" height="536" />
+    <size key="#PHPUnit.1920.0.1920.1080" width="348" height="178" />
+    <size key="OptionsEditor.1920.0.1920.1080" width="1109" height="843" />
+    <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" state="300" />
+    <extendedState key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" state="0" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="com.sun.java.swing.plaf.gtk.GTKLookAndFeel" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="evlsprt.4" value="137848d6aa3" />
+    <property name="evlsprt.6" value="1366078ef00" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="evlsprt3.6" value="16" />
+    <property name="file.colors.enable.non.project" value="Yellow" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="evlsprt2.6" value="13617f60ddc" />
+    <property name="RunConfigurable.dividerProportion" value="0.2750275" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
+    <property name="MemberChooser.showClasses" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="PHP Interface" />
+    <property name="Non-Project Files" value="Yellow" />
+    <property name="installation.uid" value="9f49c70c-bc80-410d-8049-a1f54840e348" />
+    <property name="SMTestRunner.Splitter.Proportion" value="0.28540304" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
+    <property name="AssociationsEditor.dividerProportion" value="0.3" />
+    <property name="PhpUnitSupport.selectFirtsDefect" value="true" />
+    <property name="PhpUnitSupport.hidePassedTests" value="false" />
+    <property name="file.colors.enable.tests" value="Green" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="evlsprt3.4" value="11" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="PhpUnitSupport.showStatistics" value="true" />
+    <property name="Tests" value="Green" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="evlsprt2.4" value="1376b98ea75" />
+    <property name="ColorChooser.RecentColors" value="59-70-255-255,,,226-226-226-255" />
+  </component>
+</application>
+

@@ -1,0 +1,11 @@
+org.jetbrains.plugins.haml
+com.intellij.jsp
+com.jetbrains.plugins.webDeployment
+com.jetbrains.plugins.asp
+TFS
+Subversion
+Subversion 1.7
+QuirksMode
+W3Validators
+PerforceDirectPlugin
+hg4idea
