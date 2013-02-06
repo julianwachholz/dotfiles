@@ -39,8 +39,8 @@ shifty.config.tags   = {
 	},
 	["4-com"] = {
 		position = 4,
-		layout = awful.layout.suit.tile.bottom,
-		spawn = terminal .. " -e irssi"
+		layout = awful.layout.suit.max,
+		spawn = terminal .. " -e irssi", "thunderbird"
 	},
 	["media"]  = {
 		layout = awful.layout.suit.max,
@@ -52,11 +52,11 @@ shifty.config.tags   = {
 -- shifty: tags matching and client rules
 shifty.config.apps = {
 	-- web
-	{ match = { "Chromium", "Google Chrome", "luakit" }, tag = "2-web",                                              },
+	{ match = { "Google Chrome", "Firefox", "google-chrome" }, tag = "2-web",                                              },
 	-- code
 	{ match = { "Vim"                                 }, tag = "3-code",                                             },
 	-- communications
-	{ match = { "irssi", "mutt"                       }, tag = "4-com",                                              },
+	{ match = { "irssi", "thunderbird"                }, tag = "4-com",                                              },
 	-- video
 	{ match = { "vlc"                                 }, tag = "media"                                               },
 	{ match = { "feh", "qiv"                          }, tag = "media"                                               },

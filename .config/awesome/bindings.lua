@@ -34,13 +34,14 @@ globalkeys = awful.util.table.join(
 			client.focus:raise()
 		end
 	end),
-	awful.key({ modkey, "Control" }, "+",                     function () awful.tag.incmwfact( 0.05) end   ),
-	awful.key({ modkey, "Control" }, "-",                     function () awful.tag.incmwfact(-0.05) end   ),
+--	awful.key({ modkey, "Control" }, "+",                     function () awful.tag.incmwfact( 0.05) end   ),
+--	awful.key({ modkey, "Control" }, "-",                     function () awful.tag.incmwfact(-0.05) end   ),
 	awful.key({ modkey, "Shift"   }, "r",                     shifty.rename                                ),
 	awful.key({ modkey, "Shift"   }, "w",                     shifty.del                                   ),
 	awful.key({ modkey, "Shift"   }, "t",                     function () shifty.add({ rel_index = 1 }) end),
 
 	-- Programs
+	awful.key({                   }, "Print",                 function () awful.util.spawn("shoot") end),
 	-- launchers
 	awful.key({ modkey,           }, "w",                     function () mainmenu:show({keygrabber=true, coords={x=0, y=14} }) end),
 	awful.key({ modkey,           }, "r",                     function () awful.util.spawn("dmenu_run -fn 'terminus' -nb '" .. trblk .. "' -nf '" .. brblk .. "' -sb '" .. trblk .. "' -sf '" .. brblu .. "'") end),
