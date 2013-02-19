@@ -30,4 +30,4 @@ fi
 mpd
 
 # start wm
-exec ck-launch-session awesome
+exec awesome
