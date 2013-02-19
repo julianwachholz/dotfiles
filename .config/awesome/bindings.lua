@@ -41,7 +41,7 @@ globalkeys = awful.util.table.join(
 	awful.key({ modkey, "Shift"   }, "t",                     function () shifty.add({ rel_index = 1 }) end),
 
 	-- Programs
-	awful.key({                   }, "Print",                 function () awful.util.spawn("shoot") end),
+	awful.key({                   }, "Print",                 function () awful.util.spawn("scrot -s /tmp/shot.png -e 'imgurbash /tmp/shot.png && rm /tmp/shot.png'") end),
 	-- launchers
 	awful.key({ modkey,           }, "w",                     function () mainmenu:show({keygrabber=true, coords={x=0, y=14} }) end),
 	awful.key({ modkey,           }, "r",                     function () awful.util.spawn("dmenu_run -fn 'terminus' -nb '" .. trblk .. "' -nf '" .. brblk .. "' -sb '" .. trblk .. "' -sf '" .. brblu .. "'") end),
