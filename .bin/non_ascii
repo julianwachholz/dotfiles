@@ -1,0 +1,4 @@
+#!/bin/sh
+# find non ascii file or folder names
+
+find . | perl -ne 'print if /[^[:ascii:]]/'

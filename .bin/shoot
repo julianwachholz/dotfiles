@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Take a screenshot of a selection and upload it
+# to imgur, pasting the link in the clipboard
+
+scrot -s /tmp/shot.png -e 'imgurbash /tmp/shot.png && rm /tmp/shot.png'
