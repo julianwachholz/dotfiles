@@ -28,10 +28,6 @@ fi
 
 # start mpd
 mpd
-pidof mpdscribble >& /dev/null
-if [ $? -ne 0 ]; then
- mpdscribble &
-fi
 
 # start wm
-exec ck-launch-session awesome
+exec awesome
