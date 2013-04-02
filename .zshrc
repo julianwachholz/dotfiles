@@ -29,7 +29,7 @@ ZSH_THEME="jwa"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(ssh-agent git django python pip virtualenvwrapper)
+plugins=(ssh-agent git django python pip virtualenvwrapper svn)
 
 # Setup SSH keys
 zstyle :omz:plugins:ssh-agent identities id_rsa id_github id_rsa_old
@@ -37,5 +37,5 @@ zstyle :omz:plugins:ssh-agent identities id_rsa id_github id_rsa_old
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="${PATH}":~/.bin
+export PATH="${PATH}":~/.bin:~/.gem/ruby/2.0.0/bin
 unset JAVA_HOME
