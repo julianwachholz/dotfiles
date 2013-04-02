@@ -22,3 +22,11 @@ main_window_highlight_color = "white"
 progressbar_color = "black"
 alternative_ui_separator_color = "black"
 active_column_color = "blue"
+
+##
+# Visualizer
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "mpd_fifo"
+visualizer_sync_interval = "1"
+# spectrum or wave
+visualizer_type = "spectrum"
