@@ -32,7 +32,7 @@ ZSH_THEME="jwa"
 plugins=(ssh-agent git django python pip virtualenvwrapper svn)
 
 # Setup SSH keys
-zstyle :omz:plugins:ssh-agent identities id_rsa id_github id_rsa_old
+zstyle :omz:plugins:ssh-agent identities id_rsa id_github
 
 source $ZSH/oh-my-zsh.sh
 
