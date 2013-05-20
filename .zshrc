@@ -38,4 +38,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH="${PATH}":~/.bin:~/.gem/ruby/2.0.0/bin
+export LD_LIBRARY_PATH=/opt/java/jre/lib/amd64
 unset JAVA_HOME
