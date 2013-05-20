@@ -1,19 +1,19 @@
 -- RC
+
 -- General helpers
 gears = require("gears")
 awful = require("awful")
-awful.autofocus = require("awful.autofocus")
 beautiful = require("beautiful")
-vicious = require("vicious")
-wibox = require("wibox")
-naughty = require("naughty")
-shifty = require("shifty")
+wibox     = require("wibox")
+naughty   = require("naughty")
+shifty    = require("shifty")
+vicious   = require("vicious")
 
 -- Defaults
 terminal   = "urxvt"
 editor     = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
-browser    = "google-chrome"
+browser    = os.getenv("BROWSER") or "luakit"
 modkey     = "Mod4"
 altkey     = "Mod1"
 
@@ -38,11 +38,11 @@ do local in_error = false
 		in_error = true
 		naughty.notify({
 			preset = naughty.config.presets.critical,
-			title = "An error occurred!",
+			title = "Error!",
 			text = err
 		})
 		in_error = false
-    	end)
+	end)
 end
 
 require("tags")
@@ -51,4 +51,5 @@ require("widgetstop")
 require("widgetsbottom")
 require("creation")
 require("bindings")
+require("awful.autofocus")
 require("signals")

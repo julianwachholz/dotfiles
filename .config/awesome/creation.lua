@@ -14,7 +14,7 @@ mytaglist.buttons = awful.util.table.join(
 	awful.button({ modkey },	3, awful.client.toggletag),
 	awful.button({ },			4, awful.tag.viewnext),
 	awful.button({ },			5, awful.tag.viewprev)
-	)
+)
 shifty.taglist = mytaglist
 shifty.config.taglist = mytaglist
 
@@ -81,14 +81,11 @@ for s = 1, screen.count() do
 
 		local right_layout = wibox.layout.fixed.horizontal()
 			right_layout:add(uptimewidget)
---			right_layout:add(wifidownwidget)
---			right_layout:add(wifiupwidget)
-			right_layout:add(wifiwidget)
+			-- right_layout:add(wifiwidget)
 			right_layout:add(cpuwidget)
---			right_layout:add(tempwidget)
 			right_layout:add(memwidget)
-			right_layout:add(fsrwidget)
-			right_layout:add(fshwidget)
+			-- right_layout:add(fsrwidget)
+			-- right_layout:add(fshwidget)
 			right_layout:add(volwidget)
 
 	local layout = wibox.layout.align.horizontal()
