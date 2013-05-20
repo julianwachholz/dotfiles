@@ -29,18 +29,16 @@ shifty.config.tags   = {
 	},
 	["2-web"] = {
 		position = 2,
-		spawn = "google-chrome",
-		exclusive = true
+		layout = awful.layout.suit.tile.left
 	},
 	["3-code"] = {
 		position = 3,
-		layout = awful.layout.suit.tile
-		-- spawn = terminal .. " -e vim"
+		layout = awful.layout.suit.max
 	},
 	["4-com"] = {
 		position = 4,
 		layout = awful.layout.suit.max,
-		spawn = terminal .. " -e irssi", "thunderbird"
+		spawn = terminal .. " -e irssi"
 	},
 	["media"]  = {
 		layout = awful.layout.suit.max,
@@ -52,9 +50,9 @@ shifty.config.tags   = {
 -- shifty: tags matching and client rules
 shifty.config.apps = {
 	-- web
-	{ match = { "Google Chrome", "Firefox", "google-chrome" }, tag = "2-web",                                              },
+	{ match = { "luakit", "google-chrome"             }, tag = "2-web",                                              },
 	-- code
-	{ match = { "Vim"                                 }, tag = "3-code",                                             },
+	{ match = { "pycharm", "pycharm-eap", "phpstorm", "phpstorm-eap" }, tag = "3-code",                              },
 	-- communications
 	{ match = { "irssi", "thunderbird"                }, tag = "4-com",                                              },
 	-- video
