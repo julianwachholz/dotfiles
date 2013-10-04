@@ -11,7 +11,7 @@ xset fp rehash
 xrdb -merge ~/.Xresources
 
 # compositing
-xcompmgr -cCfFD 3 &
+#xcompmgr -cCfFD 3 &
 
 # caps lock NOPE
 (sleep 3 && xmodmap -e "remove Lock = Caps_Lock" && xmodmap -e "keysym Caps_Lock = Shift_L") &
