@@ -1,0 +1,7 @@
+! Remap Caps Lock
+
+remove Lock = Caps_Lock
+remove Control = Control_L
+
+keysym Caps_Lock = Control_L
+add Control = Control_L

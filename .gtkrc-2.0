@@ -1,0 +1,14 @@
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/home/jwa/.themes/tri 1/gtk-2.0/gtkrc"
+
+style "user-font" {
+	font_name = "DejaVu Sans Semi-Condensed 12"
+}
+
+widget_class "*" style "user-font"
+
+gtk-font-name="DejaVu Sans Semi-Condensed 12"
+
+include "/home/jwa/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT
