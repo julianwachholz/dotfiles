@@ -12,11 +12,10 @@ Xcursor.size:  10
 
 
 !!! Fonts
-Xft.dpi:       96
-Xft.antialias: true
-Xft.hinting:   true
-Xft.hintstyle: hintfull
-Xft.autohint:  false
+Xft.dpi:                                96
+Xft.antialias:                          true
+Xft.hinting:                            true
+Xft.hintstyle:                          hintfull
 
 
 !!! urxvt
