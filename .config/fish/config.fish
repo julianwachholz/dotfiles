@@ -24,5 +24,5 @@ set -x PIP_DOWNLOAD_CACHE "$HOME/.pip/cache"
 
 # Virtualenv helper - https://github.com/adambrenecki/virtualfish/
 set -gx VIRTUALFISH_HOME $HOME/.venvs
-. $HOME/.config/fish/virtual.fish
+. $HOME/.config/fish/virtualfish/virtual.fish
 . $HOME/.config/fish/virtual_hooks.fish
