@@ -27,6 +27,7 @@ fish-deps: deps-update
 fish: fish-deps
 	@git submodule init
 	@git submodule update
+	@mkdir -p ${HOME}/.config/fish
 	@ln -sf ${PWD}/.config/fish/config.fish ${HOME}/.config/fish/config.fish
 	@ln -sf ${PWD}/.config/fish/virtual_hooks.fish ${HOME}/.config/fish/virtual_hooks.fish
 	@ln -sf ${PWD}/.config/fish/functions ${HOME}/.config/fish/functions
@@ -48,6 +49,7 @@ x11: x11-deps
 	@ln -sf ${PWD}/.Xmodmap ${HOME}/.Xmodmap
 	@ln -sf ${PWD}/.xsession ${HOME}/.xsession
 	@ln -sf ${PWD}/.xinitrc ${HOME}/.xinitrc
+	@mkdir -p ${HOME}/.config
 	@ln -sf ${PWD}/.config/Xcolours ${HOME}/.config/Xcolours
 	@mkdir -p ${HOME}/.config/fontconfig
 	@ln -sf ${PWD}/.config/fontconfig/fonts.conf ${HOME}/.config/fontconfig/fonts.conf
@@ -68,9 +70,10 @@ gtk: gtk-deps
 wm-deps:
 	@sudo pacman -S --noconfirm --needed pekwm tint2
 
-wm: wp-deps
+wm: wm-deps
 	@ln -sf ${PWD}/.backgrounds ${HOME}/.backgrounds
 	@ln -sf ${PWD}/.pekwm ${HOME}/.pekwm
+	@mkdir -p ${HOME}/.config
 	@ln -sf ${PWD}/.config/tint2 ${HOME}/.config/tint2
 	@echo "Configured pekwm & tint2"
 
