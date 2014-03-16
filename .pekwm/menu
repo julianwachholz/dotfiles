@@ -4,14 +4,14 @@
 INCLUDE = "vars"
 
 RootMenu = "Pekwm" {
-	Entry = "Terminal" { Actions = "Exec $TERM &" }
+	Entry = "Terminal" { Actions = "Exec $TERM -e fish &" }
 	Entry = "File manager" { Actions = "Exec thunar" }
 	Entry = "Run.." { Actions = "ShowCmdDialog" }
 
 	Separator {}
 
 	Entry = "weechat" { Actions = "Exec $TERM -e weechat" }
-	Entry = "pycharm" { Actions = "Exec /opt/pycharm-professional/bin/pycharm.sh" }
+	Entry = "subl" { Actions = "Exec subl" }
 	Entry = "firefox" { Actions = "Exec firefox" }
 
 	Separator {}
